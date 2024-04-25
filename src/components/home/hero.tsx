@@ -187,17 +187,17 @@ const HomeHero: FC = () => {
                   '& img': { width: '32px !important', height: 'auto' },
                 }}
               >
-                <Image src="/images/certificate.png" alt="Certificate icon" width={50} height={50} quality={97} />
+                <Image src="/course_01-removebg.png" alt="logo icon" width={50} height={50} quality={97} />
               </Box>
               <Box>
                 <Typography
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  Course_01
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  The best courses are free with course_01.
                 </Typography>
               </Box>
             </Box>
